@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Quadro Kanban - Arraste e Solte</title>
+    <!-- Importando fonte moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Tarefas 📝</h1>
+        <p>Organize suas atividades de forma simples arrastando os cards.</p>
+    </header>
+
+    <div class="container-input">
+        <input type="text" id="task-input" placeholder="Digite uma nova tarefa...">
+        <button id="add-btn">Adicionar</button>
+    </div>
+
+    <main class="kanban-board">
+        <!-- Coluna: A Fazer -->
+        <section class="column" id="todo">
+            <div class="column-header">
+                <h2>A Fazer 📋</h2>
+                <span class="counter">0</span>
+            </div>
+            <div class="drop-zone" id="todo-zone">
+                <!-- As tarefas entram aqui -->
+            </div>
+        </section>
+
+        <!-- Coluna: Fazendo -->
+        <section class="column" id="doing">
+            <div class="column-header">
+                <h2>Fazendo 🔨</h2>
+                <span class="counter">0</span>
+            </div>
+            <div class="drop-zone" id="doing-zone">
+                <!-- As tarefas entram aqui -->
+            </div>
+        </section>
+
+        <!-- Coluna: Feito -->
+        <section class="column" id="done">
+            <div class="column-header">
+                <h2>Feito ✅</h2>
+                <span class="counter">0</span>
+            </div>
+            <div class="drop-zone" id="done-zone">
+                <!-- As tarefas entram aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Guilherme Beltrame Nery para portfólio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

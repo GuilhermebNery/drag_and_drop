@@ -2,8 +2,6 @@
 
 Um projeto simples e elegante de gerenciador de tarefas (Kanban) desenvolvido com **HTML5**, **CSS3** e **JavaScript puro (Vanilla JS)**. Este projeto foi criado para demonstrar habilidades fundamentais de manipulação do DOM e manipulação de eventos através da API nativa de Drag and Drop.
 
-![Preview do Projeto](https://via.placeholder.com/800x400?text=Quadro+Kanban+Drag+and+Drop) <!-- Você pode substituir isso pela imagem real do seu projeto -->
-
 ## 🚀 Funcionalidades
 
 - **Arrastar e Soltar (Drag and Drop):** Mova tarefas entre as colunas "A Fazer", "Fazendo" e "Feito" de forma intuitiva.

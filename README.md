@@ -33,4 +33,4 @@ Um projeto simples e elegante de gerenciador de tarefas (Kanban) desenvolvido co
 3. Comece a organizar suas tarefas!
 
 ---
-Desenvolvido com 💙 por **Guilherme Beltrame Nery**.
+Desenvolvido por **Guilherme Beltrame Nery**.
